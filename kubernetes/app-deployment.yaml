@@ -25,6 +25,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: registry.dev.afsmtddso.com/nhussain-harbor-project/app:971c881-d12e6df
+        image: registry.dev.afsmtddso.com/nhussain-harbor-project/db:2dbd18f-1fc30c5
         ports:
         - containerPort: 5000
